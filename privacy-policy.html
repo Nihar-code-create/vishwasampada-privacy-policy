@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Vishwasampada</title>
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --card: #ffffff;
+    --text: #1f2933;
+    --muted: #5b6675;
+    --accent: #1f6f54;
+    --accent-soft: #e6f4ee;
+    --border: #e3e0d8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  header {
+    margin-bottom: 32px;
+  }
+  header .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 32px;
+    margin: 0 0 8px;
+    color: var(--text);
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 0 0 12px;
+    color: var(--text);
+    border-bottom: 2px solid var(--accent-soft);
+    padding-bottom: 8px;
+  }
+  h3 {
+    font-size: 16px;
+    margin: 20px 0 8px;
+    color: var(--text);
+  }
+  p { margin: 0 0 12px; color: var(--text); }
+  p.lead { color: var(--muted); }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .toc {
+    background: var(--accent-soft);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+  }
+  .toc h2 { border: none; padding: 0; margin-bottom: 12px; font-size: 16px; }
+  .toc ol { margin: 0; padding-left: 20px; }
+  .toc a { color: var(--accent); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  .contact {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 12px;
+    padding: 28px 32px;
+  }
+  .contact h2 { color: #fff; border-bottom-color: rgba(255,255,255,0.25); }
+  .contact a { color: #fff; font-weight: 700; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 32px;
+  }
+  code {
+    background: var(--accent-soft);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Vishwasampada</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: September 10, 2026</p>
+  </header>
+
+  <div class="toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#info-we-collect">Information We Collect</a></li>
+      <li><a href="#how-we-use">How We Use Your Information</a></li>
+      <li><a href="#strict-mode">Strict Mode &amp; App Usage Data</a></li>
+      <li><a href="#storage">Data Storage &amp; Security</a></li>
+      <li><a href="#sharing">How We Share Information</a></li>
+      <li><a href="#retention">Data Retention &amp; Deletion</a></li>
+      <li><a href="#permissions">Device Permissions</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#rights">Your Rights &amp; Choices</a></li>
+      <li><a href="#changes">Changes to This Policy</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ol>
+  </div>
+
+  <div class="card" id="intro">
+    <h2>1. Introduction</h2>
+    <p>Vishwasampada ("the App", "we", "us") is a mobile application that helps members track study streaks, manage screen time through Strict Mode, view community notifications and gallery photos, and connect with CAP tutors. This Privacy Policy explains what information we collect through the App, how we use it, and the choices you have.</p>
+    <p>By creating an account or using the App, you agree to the collection and use of information as described in this policy.</p>
+  </div>
+
+  <div class="card" id="info-we-collect">
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Account Information</h3>
+    <p>When you sign up, we use Amazon Cognito to create and authenticate your account. We collect:</p>
+    <ul>
+      <li>Email address</li>
+      <li>Password (stored and managed securely by Amazon Cognito — we never see or store your plaintext password)</li>
+    </ul>
+
+    <h3>2.2 Profile Information</h3>
+    <p>To personalize your experience, we collect information you provide during sign-up and in your account settings:</p>
+    <table>
+      <tr><th>Field</th><th>Purpose</th></tr>
+      <tr><td>Full name</td><td>Displayed on your profile and in the community</td></tr>
+      <tr><td>Mobile number</td><td>Account contact and verification</td></tr>
+      <tr><td>Country, state, city</td><td>Localization and community grouping</td></tr>
+      <tr><td>Occupation (student, teacher, school staff, CAP tutor, other)</td><td>Personalizing app features relevant to your role</td></tr>
+      <tr><td>School name, class, roll number</td><td>Collected for students/teachers to verify educational context</td></tr>
+      <tr><td>Profile picture selection</td><td>Displayed as your in-app avatar</td></tr>
+    </table>
+
+    <h3>2.3 CAP Tutor Verification</h3>
+    <p>If you apply to become a CAP tutor, we ask you to upload a photo of your tutor ID card. This photo is stored securely and is reviewed by our moderators solely to verify your tutor status. It is not shared publicly or used for any other purpose.</p>
+
+    <h3>2.4 Activity &amp; Usage Data</h3>
+    <ul>
+      <li><strong>Study streaks:</strong> we record your daily streak count and the date you last completed a streak-qualifying activity.</li>
+      <li><strong>Notifications:</strong> messages sent to you by moderators or broadcast to all users, and whether you've read them.</li>
+      <li><strong>Gallery:</strong> community photos uploaded by moderators, which you can view within the App.</li>
+    </ul>
+
+    <h3>2.5 Strict Mode Data</h3>
+    <p>If you enable Strict Mode, we collect the names/package identifiers of apps you choose to restrict and the daily time limits you set for them, so this configuration can sync across your devices. See <a href="#strict-mode">Section 4</a> for details on how app usage is actually monitored.</p>
+  </div>
+
+  <div class="card" id="how-we-use">
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+      <li>To create and maintain your account</li>
+      <li>To provide core features: streaks, notifications, gallery, Strict Mode, and tutor requests</li>
+      <li>To verify CAP tutor applications</li>
+      <li>To allow moderators to manage users, respond to tutor requests, and post community notifications</li>
+      <li>To maintain the security and integrity of the App</li>
+      <li>To communicate with you about your account when necessary</li>
+    </ul>
+    <p>We do not sell your personal information, and we do not use your data for third-party advertising.</p>
+  </div>
+
+  <div class="card" id="strict-mode">
+    <h2>4. Strict Mode &amp; App Usage Data</h2>
+    <p>Strict Mode is an optional feature that lets you limit or block your own use of specific apps on your Android device.</p>
+    <ul>
+      <li>The App uses Android's Usage Stats and Accessibility Service permissions to detect when a restricted app is opened and to enforce the daily time limit or block you've configured, entirely on your device.</li>
+      <li>We do <strong>not</strong> transmit a record of your moment-to-moment app usage (e.g. exactly when or how long you used a specific app) to our servers. Only the list of restricted apps and the limits you set are synced, so your configuration is preserved across sessions and devices.</li>
+      <li>You may set a PIN to prevent yourself from easily disabling Strict Mode; this PIN is stored securely and is not recoverable by us in plaintext.</li>
+      <li>The <code>QUERY_ALL_PACKAGES</code> Android permission is used only to let you pick which installed apps to restrict — it is not used to collect or transmit a list of your installed apps to our servers.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="storage">
+    <h2>5. Data Storage &amp; Security</h2>
+    <p>Vishwasampada is built on Amazon Web Services (AWS). Specifically:</p>
+    <ul>
+      <li><strong>Authentication</strong> is handled by Amazon Cognito.</li>
+      <li><strong>App data</strong> (profiles, streaks, notifications, Strict Mode configuration, tutor requests) is stored in an AWS-managed Aurora PostgreSQL database.</li>
+      <li><strong>Photos</strong> (gallery images and tutor ID photos) are stored in Amazon S3.</li>
+      <li><strong>API requests</strong> are served through Amazon API Gateway and AWS Lambda over encrypted HTTPS connections.</li>
+    </ul>
+    <p>We apply reasonable technical and organizational safeguards to protect your information. However, no method of electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.</p>
+  </div>
+
+  <div class="card" id="sharing">
+    <h2>6. How We Share Information</h2>
+    <p>We do not sell or rent your personal information. We share information only in the following circumstances:</p>
+    <ul>
+      <li><strong>Service providers:</strong> Amazon Web Services (Cognito, Aurora, S3, API Gateway, Lambda) processes and stores data on our behalf under their standard data-processing and security terms.</li>
+      <li><strong>Within the community:</strong> your name and profile picture may be visible to other signed-in users; content you post (e.g. tutor applications) may be visible to moderators.</li>
+      <li><strong>Legal requirements:</strong> if required to comply with a legal obligation, protect our rights, or ensure user safety.</li>
+    </ul>
+  </div>
+
+  <div class="card" id="retention">
+    <h2>7. Data Retention &amp; Account Deletion</h2>
+    <p>We retain your information for as long as your account is active, or as needed to provide you the App's features.</p>
+    <p>You can permanently delete your account and associated data at any time from the App's Account page. Deleting your account removes your profile, streak history, Strict Mode configuration, and uploaded tutor ID photo from our systems, except where we are required to retain certain records by law.</p>
+  </div>
+
+  <div class="card" id="permissions">
+    <h2>8. Device Permissions</h2>
+    <table>
+      <tr><th>Permission</th><th>Why we ask for it</th></tr>
+      <tr><td>Camera / Photo Library</td><td>To let you take or select a photo of your CAP tutor ID card during tutor sign-up</td></tr>
+      <tr><td>Usage Access / Accessibility Service</td><td>To enforce the app time limits and blocks you configure in Strict Mode, entirely on-device</td></tr>
+      <tr><td>Query All Packages</td><td>To display your installed apps so you can choose which ones to add to Strict Mode</td></tr>
+      <tr><td>Notifications</td><td>To alert you about messages from moderators or the community</td></tr>
+    </table>
+    <p>You can decline or revoke these permissions in your device settings, though doing so may limit certain features.</p>
+  </div>
+
+  <div class="card" id="children">
+    <h2>9. Children's Privacy</h2>
+    <p>Vishwasampada is designed to support students, including those under 18, in an educational context. We do not knowingly collect more information from a child than is necessary to provide the App's features, and we encourage parents/guardians to review this policy with their children. If you believe a child has provided us with information beyond what is necessary, please contact us so we can address it.</p>
+  </div>
+
+  <div class="card" id="rights">
+    <h2>10. Your Rights &amp; Choices</h2>
+    <ul>
+      <li><strong>Access &amp; correction:</strong> you can view and update most of your profile information directly within the App.</li>
+      <li><strong>Deletion:</strong> you can delete your account at any time (see Section 7).</li>
+      <li><strong>Notifications:</strong> you can clear or manage notifications from within the App.</li>
+      <li><strong>Strict Mode:</strong> you can add or remove restricted apps at any time (subject to your own PIN, if set).</li>
+    </ul>
+  </div>
+
+  <div class="card" id="changes">
+    <h2>11. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes to the App or applicable law. We will update the "Last updated" date at the top of this page when we do. Continued use of the App after changes take effect constitutes acceptance of the updated policy.</p>
+  </div>
+
+  <div class="contact" id="contact">
+    <h2>12. Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or how your information is handled, please contact us at:</p>
+    <p><a href="mailto:noktosupports@gmail.com">noktosupports@gmail.com</a></p>
+  </div>
+
+  <footer>
+    &copy; 2026 Vishwasampada. All rights reserved.
+  </footer>
+
+</div>
+</body>
+</html>
